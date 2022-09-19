@@ -83,10 +83,10 @@ nav img {
 .text-box {
 width: 35%;
 color: #fff;
-position: absolute;
-display: block;
 float: right;
 padding-top: 6%;
+margin-top: 15%;
+margin-right: 5%;
 margin-left: 5%;
 text-align: right;
 }
@@ -98,7 +98,6 @@ font-size: medium;
 }
 
 .iframe-container {
-display: block;
 float: left;
 margin-left: 10%;
 margin-top: 15%;
