@@ -81,14 +81,13 @@ nav img {
 }
 
 .text-box {
-width: 35%;
-color: #fff;
-float: right;
-padding-top: 6%;
-margin-top: 15%;
-margin-right: 5%;
-margin-left: 5%;
-text-align: right;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 35%;
+  color: #fff;
+  padding-top: 6%;
+  text-align: right;
 }
 
 .text-box h1 {
@@ -98,10 +97,11 @@ font-size: medium;
 }
 
 .iframe-container {
-float: left;
-margin-left: 10%;
-margin-top: 15%;
-margin-right: 5%;
+  position: absolute;
+  top: 10%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-right: 5%;
 }
 
 .film {
