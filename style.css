@@ -87,7 +87,6 @@ nav img {
 
 .intro .text-box {
   display: inline-block;
-  position: absolute;
   top: 30%;
   right: 10%;
   width: 35%;
@@ -105,7 +104,6 @@ nav img {
 
 .iframe-container {
   display: inline-block;
-  position: absolute;
   margin-right: 5px;
   min-width: 50%;
   top: 30%;
