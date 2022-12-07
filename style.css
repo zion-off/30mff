@@ -80,20 +80,21 @@ nav img {
   width: 100%;
 }
 
-.intro-container {
+.intro {
   position: relative;
+  display: flex;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+  width: 100%;
+  gap: 10vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro .text-box {
-  display: inline-block;
-  position: absolute;
-  top: 30%;
-  right: 10%;
-  width: 35%;
   color: #fff;
-  padding-top: 6%;
-  margin-left: 3%;
   text-align: right;
+  width: 30vw;
 }
 
 .intro .text-box h1 {
@@ -103,30 +104,22 @@ nav img {
 }
 
 .iframe-container {
-  display: inline-block;
-  position: absolute;
-  margin-right: 5px;
-  min-width: 50%;
-  top: 30%;
-  left: 10%;
   overflow: hidden;
 }
 
 .film {
-  position: absolute;
-  padding-bottom: 30%;
-  top: 100%;
+  position: relative;
   width: 100%;
   overflow: hidden;
   text-align: center;
+  padding-bottom: 30vh;
 }
 
 /* slide show code */
 
 .slideshow-container {
+  position: relative;
   max-width: 25%;
-  top: 10%;
-  margin-top: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
